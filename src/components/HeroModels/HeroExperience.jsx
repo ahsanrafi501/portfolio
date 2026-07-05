@@ -2,9 +2,9 @@ import { OrbitControls } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 import React from 'react';
 import { useMediaQuery } from "react-responsive";
-import * as THREE from 'three'; // Mouse Constants এর জন্য THREE ইমপোর্ট করা হয়েছে
+import * as THREE from 'three'; 
 
-import { Room } from "./room"; // আপনার ফাইলের নাম অনুযায়ী পাথ ঠিক রাখবেন
+import { Room } from "./Room.jsx"; 
 import HeroLights from "./HeroLights";
 import Particles from "./Particles";
 
