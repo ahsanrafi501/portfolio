@@ -53,12 +53,10 @@ const AppShowcase = () => {
             </div>
             <div className="text-content">
               <h2>
-                On-Demand Rides Made Simple with a Powerful, User-Friendly App
-                called Ryde
+                Blood Campus 
               </h2>
               <p className="text-white-50 md:text-xl">
-                An app built with React Native, Expo, & TailwindCSS for a fast,
-                user-friendly experience.
+                An web app built with Reactjs, Nodejs, ExpressJs, MongoDb, Mongoose, Axios, Multer for Daffodil International Univeristy's student and stuff for finding blood in case of emergency
             </p>
             </div>
           </div>
