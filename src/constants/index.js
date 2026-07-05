@@ -29,10 +29,10 @@ const words = [
 ];
 
 const counterItems = [
-  { value: 15, suffix: "+", label: "Years of Experience" },
-  { value: 200, suffix: "+", label: "Satisfied Clients" },
-  { value: 108, suffix: "+", label: "Completed Projects" },
-  { value: 90, suffix: "%", label: "Client Retention Rate" },
+  { value: 1, suffix: "+", label: "Years Learning Web Development" },
+  { value: 3, suffix: "+", label: "Personal Projects" },
+  { value: 10, suffix: "+", label: "Technologies Learned" },
+  { value: 100, suffix: "%", label: "Passion for Learning" },
 ];
 
 const logoIconsList = [
@@ -144,46 +144,68 @@ const techStackIcons = [
     rotation: [0, -Math.PI / 4, 0],
   },
 ];
-
 const expCards = [
   {
-    review: "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
+    review: "Demonstrated exceptional leadership and strategic vision as a Product Manager, successfully driving product goals and cross-functional team collaboration at Golden Vault.",
     imgPath: "/images/exp1.png",
     logoPath: "/images/logo1.png",
-    title: "Frontend Developer",
-    date: "January 2023 - Present",
+    title: "Product Manager",
+    date: "2023 - Present",
     responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-      "Optimized web applications for maximum speed and scalability.",
-    ],
+      "Led product strategy and execution at Golden Vault startup, ensuring alignment with user needs and business goals.",
+      "Collaborated with cross-functional teams to define product roadmaps, features, and release cycles.",
+      "Analyzed market trends and user feedback to continuously improve product performance and user experience."
+    ]
   },
   {
-    review: "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
+    review: "Played a pivotal role in fostering global connections and driving club initiatives as the International Relations Wing Secretary of the DIU Software Engineering Club.",
     imgPath: "/images/exp2.png",
     logoPath: "/images/logo2.png",
-    title: "Full Stack Developer",
-    date: "June 2020 - December 2023",
+    title: "International Relations Wing Secretary",
+    date: "2024 - Present",
     responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem.",
-    ],
+      "Managing international collaborations and communications for the Software Engineering Club at Daffodil International University.",
+      "Organizing global networking events, seminars, and workshops to bridge the gap between students and international tech communities.",
+      "Representing the club in various national and international platforms to promote software engineering excellence."
+    ]
   },
   {
-    review: "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
-    imgPath: "/images/exp3.png",
-    logoPath: "/images/logo3.png",
-    title: "React Native Developer",
-    date: "March 2019 - May 2020",
+    review: "Achieved outstanding success in one of the world's largest hackathons, proving high-level problem-solving and technical implementation skills.",
+    imgPath: "/images/logo2.png", 
+    logoPath: "/images/logo2.png",
+    title: "2nd Runner-Up | NASA Space Apps Challenge",
+    date: "October 2024", 
     responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      "Improved app performance and user experience through code optimization and testing.",
-      "Coordinated with the product team to implement features based on feedback.",
-    ],
+      "Secured the 2nd Runner-Up position in Bangladesh (Cumilla Division) in the prestigious NASA Space Apps Challenge.",
+      "Collaborated with a multidisciplinary team to design and develop an innovative solution to open-source challenges proposed by NASA.",
+      "Utilized software engineering methodologies to build prototypes under strict hackathon deadlines."
+    ]
   },
+  {
+    review: "Recognized as an emerging global leader through intensive leadership development and cross-cultural collaboration.",
+    imgPath: "/images/logo2.png",
+    logoPath: "/images/logo2.png",
+    title: "Graduate | Aspire Leaders Program",
+    date: "2024", 
+    responsibilities: [
+      "Successfully graduated from the Aspire Leaders Program (founded by Harvard Faculty), a global leadership initiative.",
+      "Engaged in rigorous modules covering leadership, professional development, and impactful decision-making.",
+      "Collaborated with peers from around the globe to address complex real-world challenges."
+    ]
+  },
+  {
+    review: "Contributed to real-world space science by participating in international astronomical search campaigns and tech hackathons.",
+    imgPath: "/images/logo2.png",
+    logoPath: "/images/logo2.png",
+    title: "Citizen Scientist & Hackathon Enthusiast",
+    date: "2023",
+    responsibilities: [
+      "Actively participated in the Asteroid Search Campaign, analyzing astronomical data to detect Near-Earth Objects (NEOs).",
+      "Competed in several national and university-level hackathons, building end-to-end software solutions to diverse problems.",
+      "Continuously applying software engineering principles taught at Daffodil International University (Batch 2023-2026) into practical, high-impact projects."
+    ]
+  }
 ];
-
 const expLogos = [
   {
     name: "logo1",
