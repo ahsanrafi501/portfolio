@@ -270,18 +270,27 @@ const socialImgs = [
   {
     name: "insta",
     imgPath: "/images/insta.png",
+    url: "https://www.instagram.com/d_ahsanrafi/"
   },
   {
     name: "fb",
     imgPath: "/images/fb.png",
+    url: "https://www.facebook.com/ahsan81102/"
   },
   {
     name: "x",
     imgPath: "/images/x.png",
+    url: "https://x.com/d_ahsanrafi"
   },
   {
     name: "linkedin",
     imgPath: "/images/linkedin.png",
+    url: "https://www.linkedin.com/in/dewan-ahsan-habib/"
+  },
+  {
+    name: "Github",
+    imgPath: "/images/github.webp",
+    url: "https://github.com/ahsanrafi501"
   },
 ];
 
