@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import { counterItems } from "../constants";
+import { counterItems } from "../constants/index.js";
 import gsap from "gsap";
 
 const AnimatedCounter = () => {

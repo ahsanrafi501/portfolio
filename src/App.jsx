@@ -1,10 +1,9 @@
-import NavBar from "./components/NavBar"
-import Contact from "./sections/Contact";
-import ExperienceSection from "./sections/ExperienceSection";
-import Footer from "./sections/Footer";
-import Hero from "./sections/Hero"
-import ShowcaseSection from './sections/ShowcaseSection';
-import TechStack from "./sections/TechStack";
+import NavBar from "./components/NavBar.jsx"
+import Contact from "./sections/Contact.jsx";
+import ExperienceSection from "./sections/ExperienceSection.jsx";
+import Footer from "./sections/Footer.jsx"
+import ShowcaseSection from './sections/ShowcaseSection.jsx';
+import TechStack from "./sections/TechStack.jsx";
 
 const App = () => {
   return (

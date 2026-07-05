@@ -1,9 +1,9 @@
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 
-import TitleHeader from "../components/TitleHeader";
+import TitleHeader from "../components/TitleHeader.jsx";
 import TechIconCardExperience from "../components/models/techlogos/TechIconCardExperience.jsx";
-import { techStackIcons } from "../constants";
+import { techStackIcons } from "../constants/index.js";
 // import { techStackImgs } from "../constants";
 
 const TechStack = () => {

@@ -5,20 +5,18 @@ import { useMediaQuery } from "react-responsive";
 import * as THREE from 'three'; 
 
 import { Room } from "./Room.jsx"; 
-import HeroLights from "./HeroLights";
-import Particles from "./Particles";
+import HeroLights from "./HeroLights.jsx";
+import Particles from "./Particles.jsx";
 
 const HeroExperience = () => {
   const isTablet = useMediaQuery({ query: "(max-width: 1024px)" });
   const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
 
   return (
-    // 'shadows' প্রপটি যোগ করা হয়েছে যাতে HeroLights এর শ্যাডো ঠিকঠাক কাজ করে
     <Canvas camera={{ position: [0, 0, 15], fov: 45 }} shadows>
-      {/* deep blue ambient */}
       <ambientLight intensity={0.2} color="#1a1a40" />
       
-      {/* Configure OrbitControls to disable panning and control zoom based on device type */}
+   
       <OrbitControls
         enablePan={false} // Prevents panning of the scene
         enableZoom={!isTablet} // Disables zoom on tablets
@@ -27,7 +25,6 @@ const HeroExperience = () => {
         minPolarAngle={Math.PI / 5} // Minimum angle for vertical rotation
         maxPolarAngle={Math.PI / 2} // Maximum angle for vertical rotation
         
-        // এখানে মাউস রিম্যাপ করা হয়েছে: Left Click = Rotate, Right/Middle Click = Zoom
         mouseButtons={{
             LEFT: THREE.MOUSE.ROTATE,
             MIDDLE: THREE.MOUSE.DOLLY,
